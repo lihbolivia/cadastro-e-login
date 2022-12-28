@@ -1,0 +1,75 @@
+body{
+    
+    background-color: #382B5F;
+    font-family: Arial, Helvetica, sans-serif ;
+    overflow: hidden;
+
+}
+.area-cadastro{
+
+   display: flex;
+   height: 100vh;
+   align-items: center;
+   justify-content: center;
+   align-items: center;
+
+}
+.cadastro{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 558px;
+   width: 707px;
+   left: -241px;
+   top: -327px;
+   border-radius: 35px;
+   background-color: aliceblue;
+
+}
+.cadastro form{
+   display: flex;
+   flex-direction: column;
+   width: 60%;
+   
+
+
+}
+.cadastro input{
+ 
+   margin-top: 20px;
+   background-color: #666464;
+   border: none;
+   color: #ffffff;
+   height: 35px;
+   border-radius: 7px;
+   outline: #382B5F;
+   padding-left: 10px;
+
+
+}
+input::placeholder{
+
+   color: #ffffff;
+   font-size: 15px;
+   
+
+}
+form [type="submit"]{
+
+   display: block;
+   background-color: #382B5F;
+   color: aliceblue;
+   height: 50px; ;
+   font-size: 24px;
+}
+p{
+   color: #382B5F;
+   font-weight: bold;
+}
+a{
+   color: rgb(0, 114, 181);
+   
+}
+h1{
+   color: #382B5F;
+}
